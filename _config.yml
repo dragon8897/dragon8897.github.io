@@ -1,8 +1,26 @@
-auto:	true
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
 
-markdown:	rdiscount
-pygments:	true
-paginate:	8
-permalink:	/:title
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
 
-title:	LeeBlog.com
+# Setup
+title:            Pai
+tagline:          'A Jekyll theme'
+description:      'Life is a competition with yourself.'
+url:              http://dragon8897.github.io
+baseurl:          /
+
+author:
+  name:           'Mark Otto'
+  url:            http://dragon8897.github.io/
+
+paginate:         5
+
+# Custom vars
+#version:          2.1.0
+
+#github:
+#  repo:           https://github.com/poole/hyde
