@@ -4,5 +4,3 @@ title: About
 ---
         
 A game developer.
-
-
